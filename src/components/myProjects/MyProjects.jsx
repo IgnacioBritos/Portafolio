@@ -1,4 +1,4 @@
-import style from "./myprojects.module.css";
+import style from "./module/myprojects.module.css";
 import Project from "./Project/Project";
 import { useState } from "react";
 
