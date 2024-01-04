@@ -1,0 +1,18 @@
+.containInfoProject{
+    padding: 4px 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1f76c287;
+ 
+}
+.infoProjects{
+    position: relative;
+    padding: 10px 15px;
+    display: flex;
+}
+.infoProjectsImg{
+    position: absolute;
+    height: 40px;
+    top: 20px;
+    bottom: 0px;
+    right: 40px;
+}

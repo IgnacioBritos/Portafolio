@@ -1,0 +1,14 @@
+.About{
+    padding: 30px 25px;
+    height:150px;
+    border-bottom: 2px solid #1a4061ce;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: lightgray;
+}
+.infoAbout{
+    padding: 0px 25px;
+}

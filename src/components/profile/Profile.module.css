@@ -1,0 +1,107 @@
+.Profile {
+  display: flex;
+  position: relative;
+  height: 250px;
+  border-bottom: 1px solid #1f76c2;
+  align-items: center;
+  padding-left: 25px;
+}
+.imgProfile {
+  width: 170px;
+  border-radius: 50%;
+  border: 6px solid #21405c;
+}
+.infoProfile {
+  height: 80%;
+  padding-left: 60px;
+  margin-top: 70px;
+}
+.infoProfile h2,
+span,
+p {
+  font-weight: 400;
+  margin: 3px;
+  /* font-family: 'Mitr', sans-serif;
+    font-family: 'PT Sans', sans-serif; */
+}
+.infoProfile h2 {
+  font-size: 2rem;
+  color: lightgray;
+}
+.infoProfile span {
+  font-size: 1.5rem;
+  font-family: monospace;
+  font-weight: 900;
+  height: 29px;
+  margin-bottom: 10px;
+  color: #4c8ac1;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid #1f76c2;
+  width: 14ch;
+
+  animation: typing 2s steps(14), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.infoProfile p {
+  font-weight: 200;
+  margin-left: 15px;
+  color: rgb(145, 145, 145);
+}
+.contactProfile {
+  position: absolute;
+  right: 4%;
+  bottom: 10px;
+}
+.icon {
+  padding: 10px;
+  width: 30px;
+  bottom: 40px;
+  transition: transform 0.5s;
+  &:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+.iconLinkedIn {
+  padding: 5px;
+  width: 37px;
+  bottom: 40px;
+  transition: transform 0.5s;
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  &:not(:hover) {
+    transform: scale(1);
+  }
+}
+.iconCV{
+  padding: 5px;
+  width: 40px;
+  bottom: 40px;
+  transition: transform 0.5s;
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  &:not(:hover) {
+    transform: scale(1);
+  }
+}

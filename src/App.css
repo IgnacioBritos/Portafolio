@@ -1,0 +1,5 @@
+main {
+  margin: auto;
+  width: 65%;
+  padding: 0px; /* Añade espacio interno para que el contenido no toque el borde */
+}

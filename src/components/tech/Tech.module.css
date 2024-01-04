@@ -1,0 +1,33 @@
+.containInfoTech {
+  padding: 10px 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1f76c287;
+}
+.containIcons {
+    margin: 15px 0;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px ;
+}
+.divIcon {
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.5s;
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+}
+
+.icon {
+  width: 65px;
+}
+.iconP {
+  opacity: 0;
+  transition: opacity 0.5s, filter 0.5s;
+  font-size: 15px;
+}
+.divIcon:hover .iconP {
+  opacity: 1;
+  filter: brightness(1.1);
+}

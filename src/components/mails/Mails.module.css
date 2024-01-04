@@ -1,0 +1,69 @@
+.containForm {
+  width: 100%;
+  padding: 10px 15px;
+  border-bottom: 1px solid #1f76c287;
+}
+.p{
+  font-weight: 200;
+  margin-left: 10px;
+  color:rgb(145, 145, 145);
+}
+.formRow{
+  position: relative;
+}
+.centerForm{
+    display: flex;
+    justify-content: center;
+}
+.form {
+  margin: 20px;
+  text-align: center;
+}
+
+form{
+    display: flex;
+    gap: 30px;
+
+}
+
+input{
+  margin-bottom: 15px;
+  width: 200px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #21405C;
+  color: lightgray;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  position: absolute;
+  margin: 0 33%;
+  display: flex;
+  background-color: #21405C;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  bottom: 10px;
+
+}
+textarea[name="message"] {
+  width: 300px;
+  height: 150px;
+  padding: 8px;
+  resize:none;
+  border-radius: 5px;
+  background-color: #21405C;
+  border: none;
+  color: lightgray;
+}
+
+button:hover {
+  background-color: #4490d3;
+}
