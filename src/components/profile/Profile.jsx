@@ -51,7 +51,7 @@ const Profile = () => {
       <div className={styles.contactProfile}>
     <a href="https://github.com/IgnacioBritos" target="_blank"><img src={logoGithub} alt="Github" className={styles.icon} /></a>
     <a href="https://www.linkedin.com/in/ignacio-britos-053653232/" target="_blank"><img src={LinkedIn} alt="LinkedIn" className={styles.iconLinkedIn} /></a>
-    <a href="file:///C:/Users/GASPAR/Desktop/CV-Gaspar.pdf" target="_blank"><img src={pdf} alt="CVU" className={styles.iconCV} /></a>
+    <a href="https://drive.google.com/file/d/1bB8riZraVF1ufeDFaU1mcon3tqT9Mk5Q/view?usp=sharing" target="_blank"><img src={pdf} alt="CVU" className={styles.iconCV} /></a>
       </div>
     </article>
   );
